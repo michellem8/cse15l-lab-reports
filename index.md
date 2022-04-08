@@ -1,5 +1,8 @@
 # Welcome to my website!
 
+[Lab Report 1](https://michellem8.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+
 *this is where I will write lab reports*
 
 ## UCSD WEBSITE
@@ -18,3 +21,5 @@
 **Here is another seal** 
 *** 
 ![Image](https://yt3.ggpht.com/ytc/AKedOLTeJA-en7hkpD3qBh3uLjuwXP0w89LuMvLVzfgt=s900-c-k-c0x00ffffff-no-rj)
+
+
