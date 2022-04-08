@@ -4,12 +4,12 @@
 
 ## UCSD WEBSITE
 
-[Link](https://ucsd.edu/)
+[UCSD](https://ucsd.edu/)
 
 **This is a seal**
 Horizontal rule: 
 ***
 
-[Image](https://files.worldwildlife.org/wwfcmsprod/images/HERO_harbor_seal_on_ice/hero_small/41yzw17euy_Harbor_Seal_on_Ice_close_0357_6_11_07.jpg)
+![Image](https://files.worldwildlife.org/wwfcmsprod/images/HERO_harbor_seal_on_ice/hero_small/41yzw17euy_Harbor_Seal_on_Ice_close_0357_6_11_07.jpg)
 
 >Hello 
