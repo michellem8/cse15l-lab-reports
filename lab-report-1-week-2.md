@@ -22,7 +22,8 @@ if this is the case then press yes.
 > ![Image](SSH-Connect.png)
 
 **YOURE NOW CONNECTED!!!**
-(cute gif)
+
+![Image](https://c.tenor.com/ywS9vxQ2sqgAAAAM/smile-dancing.gif)
 
 *Trying some commands*
 Try these commads in your remote access termial!
@@ -58,7 +59,10 @@ class WhereAmI' {
 ![Image](scp.png)
 
 **YOU HAVE SUCCESFULLY COPIED AND PASTED A FILE TO IENG6!!**
-(cute gif)
          
-*Setting an SSH Key**
+![Image](https://c.tenor.com/ZkMfy0jHXM0AAAAM/peach-goma.gif)
+         
+*Setting an SSH Key*
+         
+
         
