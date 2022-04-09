@@ -53,4 +53,5 @@ Try these commads in your remote access termial!
 5. <filename>.java should be visible in your directory!
 6. now run it using javac followed by java
 > it should look like this!
+![Image](scp.png)
         
