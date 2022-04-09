@@ -23,3 +23,12 @@ if this is the case then press yes.
 
 **YOURE NOW CONNECTED!!!
 
+*Trying some commands*
+Try these commads in your remote access termial!
+- cd (name of folder) - change directory
+- ls - list of files or direcorties 
+- ls -lat - directory size 
+- ls -a - gives all files inclding hidden ones(those with dots in the beginning)
+>what it should it look like
+>![Image]{
+
