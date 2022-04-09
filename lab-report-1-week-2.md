@@ -21,7 +21,8 @@ if this is the case then press yes.
 5. Once you are connected to the remote server it should look like this:
 > ![Image](SSH-Connect.png)
 
-**YOURE NOW CONNECTED!!!
+**YOURE NOW CONNECTED!!!**
+(cute gif)
 
 *Trying some commands*
 Try these commads in your remote access termial!
@@ -37,7 +38,8 @@ Try these commads in your remote access termial!
 1. Create a java file on your computer (or use one that has all already been made) and have the following code written in it:
 
          
-```class WhereAmI' {
+```
+class WhereAmI' {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
     System.out.println(System.getProperty("user.name"));
@@ -54,4 +56,9 @@ Try these commads in your remote access termial!
 6. now run it using javac followed by java
 > it should look like this!
 ![Image](scp.png)
+
+**YOU HAVE SUCCESFULLY COPIED AND PASTED A FILE TO IENG6!!**
+(cute gif)
+         
+*Setting an SSH Key**
         
