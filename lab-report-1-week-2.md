@@ -19,5 +19,7 @@
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?"
 if this is the case then press yes. 
 5. Once you are connected to the remote server it should look like this:
-> ![Image](Remote server ss)
->
+> ![Image](SSH-Connect.png)
+
+**YOURE NOW CONNECTED!!!
+
