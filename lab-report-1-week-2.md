@@ -94,6 +94,7 @@ The key's randomart image is:
 then on the client 
 - scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 3. once you follow these steps you should be able to ssh or scp from client to server without entering your password. 
+![Image](SSH Key.png)
 
          
 
