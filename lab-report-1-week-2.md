@@ -31,7 +31,7 @@ Try these commads in your remote access termial!
 - ls - list of files or direcorties 
 - ls -lat - directory size 
 - ls -a - gives all files inclding hidden ones(those with dots in the beginning)
->what it should it look like
+**What it should it look like!**
 >![Image](Commands.png)
 
 *Moving files using scp*
@@ -51,12 +51,15 @@ class WhereAmI' {
 } 
 ```
 2. After this in the terminal not connected to remote access write scp <filename>.java cs15lsp22zz@ieng6.ucsd.edu:~/
->remember to chnage zz to the correct letters for your login
+         
+         -remember to chnage zz to the correct letters for your login
 3. you should be prompted with a password that you will enter again which will log you into ieng6.
 4. type ls into the terminal after logging in
-5. <filename>.java should be visible in your directory!
+5. filename.java should be visible in your directory!
 6. now run it using javac followed by java
-> it should look like this!
+
+**it should look like this!**
+
 ![Image](scp.png)
 
 **YOU HAVE SUCCESFULLY COPIED AND PASTED A FILE TO IENG6!!**
