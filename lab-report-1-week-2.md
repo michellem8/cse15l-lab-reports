@@ -36,6 +36,7 @@ Try these commads in your remote access termial!
 
 *Moving files using scp*
 - the command scp can ne inputed in your terminal to copy and paste a file and it will always run from your personal computer
+
 1. Create a java file on your computer (or use one that has all already been made) and have the following code written in it:
 
          
@@ -74,27 +75,38 @@ An ssh key allows you to copy and paste into the ieng6 server without having to 
 - The key fingerprint is:
 SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
 The key's randomart image is:
-+---[RSA 3072]----+
-|                 |
-|       . . + .   |
-|      . . B o .  |
-|     . . B * +.. |
-|      o S = *.B. |
-|       = = O.*.*+|
-|        + * *.BE+|
-|           +.+.o |
-|             ..  |
-+----[SHA256]-----+
+
+         +---[RSA 3072]----+
+
+         |                 |
+
+         |       . . + .   |
+
+         |      . . B o .  |
+
+         |     . . B * +.. |
+
+         |      o S = *.B. |
+
+         |       = = O.*.*+|
+
+         |        + * *.BE+|
+
+         |           +.+.o |
+
+         |             ..  |
+
+         +----[SHA256]-----+
 
 2. now you have to copy the public key to the ssh directory using:
 - ssh cs15lsp22zz@ieng6.ucsd.edu
-- <Enter your password>
+- Enter your password
 - mkdir .ssh
 - exit (brings you back to client)
 then on the client 
 - scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 3. once you follow these steps you should be able to ssh or scp from client to server without entering your password. 
-![Image](SSH-Key.png)
+![Image](SSH-key.png)
 
          
 
