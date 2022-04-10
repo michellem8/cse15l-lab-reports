@@ -67,11 +67,11 @@ class WhereAmI' {
 An ssh key allows you to copy and paste into the ieng6 server without having to enter a password. Here are the steps to do this:
         
 1. on the client terminal (not logged into ieng6) enter: 
-> ssh - keygen
-> /Users/<user-name>/.ssh/id_rsa
-> for this line 'Enter passphrase (empty for no passphrase): ' and this "Enter same passphrase again:" just press enter twice
-> you should get something that looks like this 
-> The key fingerprint is:
+- ssh - keygen
+- /Users/<user-name>/.ssh/id_rsa
+- for this line 'Enter passphrase (empty for no passphrase): ' and this "Enter same passphrase again:" just press enter twice
+- you should get something that looks like this 
+- The key fingerprint is:
 SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
 The key's randomart image is:
 +---[RSA 3072]----+
@@ -86,13 +86,13 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 
-2.now you have to copy the public key to the ssh directory using:
-> ssh cs15lsp22zz@ieng6.ucsd.edu
-> <Enter your password>
-> mkdir .ssh
-> exit (brings you back to client)
+2. now you have to copy the public key to the ssh directory using:
+- ssh cs15lsp22zz@ieng6.ucsd.edu
+- <Enter your password>
+- mkdir .ssh
+- exit (brings you back to client)
 then on the client 
-> scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+- scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 3. once you follow these steps you should be able to ssh or scp from client to server without entering your password. 
 
          
