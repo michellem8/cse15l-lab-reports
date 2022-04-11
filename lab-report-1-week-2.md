@@ -52,7 +52,7 @@ class WhereAmI' {
   }
 } 
 ```
-2. After this in the terminal not connected to remote access write scp <filename>.java cs15lsp22zz@ieng6.ucsd.edu:~/
+2. After this in the terminal not connected to remote access write scp filename.java cs15lsp22zz@ieng6.ucsd.edu:~/
          
          -remember to chnage zz to the correct letters for your login
 3. you should be prompted with a password that you will enter again which will log you into ieng6.
@@ -121,10 +121,7 @@ then on the client
 
 1. Follow the same steps as with the ssh key (above) 
 > you most likely would not have to enter your password again if you already did the ssh keys step
-2. When the terminal prompts asks to "Enter file in which to save key (/Users/your username/.ssh/id_rsa):
-> Enter the path to the java file: /Users/your name/.ssh/WhereAmI
-3. When the terminal asks for the paraphrase press enter twice again (same as in ssh keys)
-4. Type ls in the ieng6 terminal and the java file should be there!
+2. Try to copy and paste another file and this time it shouldn't prompt you for your password!
          
 ![Image]
 
