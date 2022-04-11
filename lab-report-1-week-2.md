@@ -18,7 +18,9 @@
 > RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?"
 if this is the case then press yes. 
+
 5. Once you are connected to the remote server it should look like this:
+
 ![Image](SSH-Connect.png)
 
 **YOURE NOW CONNECTED!!!**
@@ -26,6 +28,7 @@ if this is the case then press yes.
 ![Image](https://c.tenor.com/ywS9vxQ2sqgAAAAM/smile-dancing.gif)
 
 *Trying some commands*
+
 Try these commads in your remote access termial!
 - cd (name of folder) - change directory
 - ls - list of files or direcorties 
@@ -37,7 +40,8 @@ Try these commads in your remote access termial!
 ![Image](Commands.png)
 
 *Moving files using scp*
-- the command scp can ne inputed in your terminal to copy and paste a file and it will always run from your personal computer
+
+> The command scp can be inputed in your terminal to copy and paste a file and it will always run from your personal computer.
 
 1. Create a java file on your computer (or use one that has all already been made) and have the following code written in it:
 
@@ -52,15 +56,15 @@ class WhereAmI' {
   }
 } 
 ```
-2. After this in the terminal not connected to remote access write scp filename.java cs15lsp22zz@ieng6.ucsd.edu:~/
+2. after this in the terminal not connected to remote access write scp filename.java cs15lsp22zz@ieng6.ucsd.edu:~/
          
          -remember to chnage zz to the correct letters for your login
-3. you should be prompted with a password that you will enter again which will log you into ieng6.
+3. you should be prompted with a password that you will enter again which will log you into ieng6
 4. type ls into the terminal after logging in
 5. filename.java should be visible in your directory!
 6. now run it using javac followed by java
 
-**it should look like this!**
+**It should look like this!**
 
 ![Image](scp.png)
 
@@ -70,7 +74,7 @@ class WhereAmI' {
          
 *Setting an SSH Key*
          
-An ssh key allows you to copy and paste into the ieng6 server without having to enter a password. Here are the steps to do this:
+>An ssh key allows you to copy and paste into the ieng6 server without having to enter a password. Here are the steps to do this:
         
 1. on the client terminal (not logged into ieng6) enter: 
 - ssh - keygen
