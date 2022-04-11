@@ -123,9 +123,9 @@ then on the client
 > you most likely would not have to enter your password again if you already did the ssh keys step
 2. Try to copy and paste another file and this time it shouldn't prompt you for your password!
          
-![Image]
+![Image](Optimizing.png)
 
-**and thats its youre done!!**
+**And thats its youre done!!**
          
 
          
