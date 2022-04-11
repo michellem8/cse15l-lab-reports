@@ -19,7 +19,7 @@
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?"
 if this is the case then press yes. 
 5. Once you are connected to the remote server it should look like this:
-> ![Image](SSH-Connect.png)
+![Image](SSH-Connect.png)
 
 **YOURE NOW CONNECTED!!!**
 
@@ -31,8 +31,10 @@ Try these commads in your remote access termial!
 - ls - list of files or direcorties 
 - ls -lat - directory size 
 - ls -a - gives all files inclding hidden ones(those with dots in the beginning)
+
 **What it should it look like!**
->![Image](Commands.png)
+
+![Image](Commands.png)
 
 *Moving files using scp*
 - the command scp can ne inputed in your terminal to copy and paste a file and it will always run from your personal computer
@@ -110,6 +112,24 @@ then on the client
 - scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 3. once you follow these steps you should be able to ssh or scp from client to server without entering your password. 
 ![Image](SSH-key.png)
+         
+         
+         
+*Optimizing Remote Running*
+         
+(Copy the java file without having to use your password!)
+
+1. Follow the same steps as with the ssh key (above) 
+> you most likely would not have to enter your password again if you already did the ssh keys step
+2. When the terminal prompts asks to "Enter file in which to save key (/Users/your username/.ssh/id_rsa):
+> Enter the path to the java file: /Users/your name/.ssh/WhereAmI
+3. When the terminal asks for the paraphrase press enter twice again (same as in ssh keys)
+4. Type ls in the ieng6 terminal and the java file should be there!
+         
+![Image]
+
+**and thats its youre done!!**
+         
 
          
 
