@@ -125,15 +125,22 @@ then on the client
          
 ## Optimizing Remote Running
          
-(Copy the java file without having to use your password!)
+Use what you have learned to make the proccess of copying and modifying files faster and easier!!
 
-1. Follow the same steps as with the ssh key (above) 
-> you most likely would not have to enter your password again if you already did the ssh keys step
-2. Try to copy and paste another file and this time it shouldn't prompt you for your password!
+1. Once you follow the same steps as with the ssh key (above), you wont need to enter your password anymore which will make the switch from client to remote much more effiecnt. 
+2. To optimize your remote running try entering a few things like: 
+- ```scp filename.java cs15lsp22zz@ieng6.ucsd.edu```
+ - ```ssh cs15lsp22zz@ieng6.ucsd.edu "ls"``` which will long into the remote server and list your directory
+ - ```cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI``` semi-colons can run multiple commands on one line instead of having to enter each command on a new line
+ - using the up arrow key will retrieve previous commands used in the terminal
+
+
          
-![Image](Optimizing.png)
+![Image](Opt-run.png)
 
 **And thats its youre done!!**
+
+![Image](https://c.tenor.com/YdTpw-54DXcAAAAC/pusheen-laptop.gif)
          
 
          
