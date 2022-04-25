@@ -1,7 +1,8 @@
 # Michelles Lab Reports
 
+ ![Image](https://i.pinimg.com/originals/c4/90/ca/c490ca0a25bc300089e784e635ff465f.gif)
 
-**Lab Reports**
+## My Lab Reports
 
 [Lab Report 1](https://michellem8.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
