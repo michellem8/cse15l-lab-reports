@@ -1,9 +1,11 @@
 # Fixing the Markdown Parser
 
+![Image](https://data.whicdn.com/images/345205742/original.gif)
+
 ## Bug 1: The extra space
 
 The first issue our code stumbled upon was an addition of spaces after the link the last link. To fix this we added  an if statment that took in the consideration of a spaces at the end of the file and ended the while so it wouldn't keep running anymore. 
-. 
+
 ![Image](bug1.png)
 
 [Test file 2](https://michellem8.github.io/cse15l-lab-reports/test2.md) had the following output when run through the original program. 
@@ -31,7 +33,7 @@ The second bug we discovered is that when a link has a space in it, when the lis
 
 The bug in the code was that it did not recognize spaces within links and therefore took the string as is with the space. As a result the symptom was that any link containing an accidental space would have it within would be outputted with the space still inside it. 
 
-## Bug 3: An empty file or a file without links
+## Bug 3: A file without links
 
 The third bug we discovered was when a file contained no links! To fix this we added an if statement that would address there being no links in the file and instead of null return a message saying "No links in this file!"
 ![Image](bug3.png)
