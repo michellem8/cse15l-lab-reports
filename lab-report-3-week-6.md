@@ -33,11 +33,11 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  
  ![Image](scpR.png)
 
-Here it is in the directory!
+Here it is logged into ieng6 directory!
 
-![Image](ls.png)
+![Image](ls2.png)
 
-And here is the results after I ran it using the commands:
+And here is the results after I ran it using the commands in ieng6:
 ```
 javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
