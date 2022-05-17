@@ -5,7 +5,7 @@
 3) check if you have a config file by typing ```open config```
 4) if there is an error saying the file does not exist, in your terminal type ``` touch config```. This will create a new config file
 5) once your config file is created type ```open config``` again. This should open your config file in a text editor. 
-6) In the editor copy and paste (feel free to rename the host - first liine that says "Host" - to whatever you would like).
+6) In the editor copy and paste (feel free to rename the host - first liine that says "Host" - to whatever you would like) and save the file!
 ```
 Host ieng6
     HostName ieng6.ucsd.edu
@@ -24,5 +24,23 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
 
 ![Image](scp.png)
  
- **And the file should be there**
+ **And the file should be there!!**
+ 
+ ## Copying Directories
+ to copy a whole directory in the terminal type ```scp -r "dir name```
+ 
+ I copied my markdown-parse repository into my ieng6 account using the command ```scp -r markdown-parse michelle:~/```
+ 
+ ![Image](scpR.png)
+
+Here it is in the directory!
+
+![Image](ls.png)
+
+And here is the results after I ran it using the commands:
+```
+javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
+java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
+![Image](runTest.png)
  
