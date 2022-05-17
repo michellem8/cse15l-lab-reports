@@ -1,4 +1,5 @@
 # Lab Report 3
+
 ## Streamline SSH Configuration 
 
 1) open up your terminal
@@ -27,7 +28,7 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  
  **And the file should be there!!**
  
- ## Setting up Github Access for ieng6
+## Setting up Github Access for ieng6
  
  I created two public keys for github, one for local and one for remote access:
  
@@ -41,7 +42,8 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  ![Image](commit.png)
  
  ## Copying Directories
- to copy a whole directory in the terminal type ```scp -r (directory name)```
+ 
+ To copy a whole directory in the terminal type ```scp -r (directory name)```
  
  I copied my markdown-parse repository into my ieng6 account using the command ```scp -r markdown-parse michelle:~/```
  
