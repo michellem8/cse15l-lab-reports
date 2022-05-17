@@ -15,7 +15,7 @@ Host ieng6
 ```
 it should look like this:
 
-![Image](configkey.png)
+![Image](conifg2.png)
 
 once this is created you can now type ``` ssh ieng6``` (or whatever you named the host) into the terminal and your remote account should open!
 
