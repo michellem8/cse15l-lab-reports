@@ -6,7 +6,7 @@
 3) check if you have a config file by typing ```open config```
 4) if there is an error saying the file does not exist, in your terminal type ``` touch config```. This will create a new config file
 5) once your config file is created type ```open config``` again. This should open your config file in a text editor. 
-6) In the editor copy and paste (feel free to rename the host - first liine that says "Host" - to whatever you would like) and save the file!
+6) In the editor copy and paste (feel free to rename the host - first line that says "Host" - to whatever you would like) and save the file!
 ```
 Host ieng6
     HostName ieng6.ucsd.edu
@@ -36,18 +36,18 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  The keys are located in the .ssh file. The private key is ```id_rsa_github``` and the public key ```is id_rsa.github.pub```. 
  ![Image](id_rsa.png)
  
- I created a new file called test using ```touch test``` and then added it using ```git add test```. Then to commit I typed ```commit -m "add test" (-m "your message")``` to commit it to the repository. 
+ I created a new file called test using ```touch test``` and then added it using ```git add test```. Then to commit I typed ```commit -m "add test"``` to commit it to the repository. 
  
  ![Image](commit.png)
  
  ## Copying Directories
- to copy a whole directory in the terminal type ```scp -r "dir name```
+ to copy a whole directory in the terminal type ```scp -r (directory name)```
  
  I copied my markdown-parse repository into my ieng6 account using the command ```scp -r markdown-parse michelle:~/```
  
  ![Image](scpR.png)
 
-Here it is logged into ieng6 directory!
+Here is the repository when logged into ieng6 directory!
 
 ![Image](ls2.png)
 
