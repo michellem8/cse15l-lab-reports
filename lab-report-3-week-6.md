@@ -2,12 +2,12 @@
 
 ## Streamline SSH Configuration 
 
-1) open up your terminal
-2) in your terminal type ```cd .ssh```
-3) check if you have a config file by typing ```open config```
-4) if there is an error saying the file does not exist, in your terminal type ``` touch config```. This will create a new config file
-5) once your config file is created type ```open config``` again. This should open your config file in a text editor. 
-6) In the editor copy and paste (feel free to rename the host - first line that says "Host" - to whatever you would like) and save the file!
+1. open up your terminal
+2. in your terminal type ```cd .ssh```
+3. check if you have a config file by typing ```open config```
+4. if there is an error saying the file does not exist, in your terminal type ``` touch config```. This will create a new config file
+5. once your config file is created type ```open config``` again. This should open your config file in a text editor. 
+6. In the editor copy and paste (feel free to rename the host - first line that says "Host" - to whatever you would like) and save the file!
 ```
 Host ieng6
     HostName ieng6.ucsd.edu
