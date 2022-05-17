@@ -46,13 +46,16 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 
 You can also shorten runtime by adding multiple commands to one line using semicolons to seperate each command. In the terminal I wrote:
 ``` 
-scp -r markdown-parser michelle:~/; ssh michelle cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+scp -r markdown-parser michelle:~/; ssh michelle cd markdown-parser; /software/CSE/oracle-
+java-17/jdk-17.0.1/bin/javac -cp.:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; 
+/software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar 
+org.junit.runner.JUnitCore MarkdownParseTest
 
 ```
 
 This was the ouput! It runs everything at once:
 
 ![Image](multcommands1.png)
-![Image](multcommands.jpg)
+![Image](multcomands.jpg)
 
  
