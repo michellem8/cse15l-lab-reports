@@ -27,6 +27,15 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  
  **And the file should be there!!**
  
+ ## Setting up Github Access for ieng6
+ 
+ Here are my keys for my local and remote access:
+ 
+ ![Image](keys.png)
+ 
+ The keys are located in the .ssh file. The private key is id_rsa_github and the public key is id_rsa.github.pub. 
+ ![Image](id_rsa.png)
+ 
  ## Copying Directories
  to copy a whole directory in the terminal type ```scp -r "dir name```
  
