@@ -1,3 +1,4 @@
+# Lab Report 3
 ## Streamline SSH Configuration 
 
 1) open up your terminal
