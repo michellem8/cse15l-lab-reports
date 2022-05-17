@@ -41,7 +41,7 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  
  ![Image](commit.png)
  
- ## Copying Directories
+## Copying Directories
  
  To copy a whole directory in the terminal type ```scp -r (directory name)```
  
