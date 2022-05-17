@@ -29,12 +29,16 @@ to copy and paste using the new key just type ```scp filename ieng6:~/```
  
  ## Setting up Github Access for ieng6
  
- Here are my keys for my local and remote access:
+ I created two public keys for github, one for local and one for remote access:
  
  ![Image](keys.png)
  
- The keys are located in the .ssh file. The private key is id_rsa_github and the public key is id_rsa.github.pub. 
+ The keys are located in the .ssh file. The private key is ```id_rsa_github``` and the public key ```is id_rsa.github.pub```. 
  ![Image](id_rsa.png)
+ 
+ I created a new file called test using ```touch test``` and then added it using ```git add test```. Then to commit I typed ```commit -m "add test" (-m "your message")``` to commit it to the repository. 
+ 
+ ![Image](commit.png)
  
  ## Copying Directories
  to copy a whole directory in the terminal type ```scp -r "dir name```
