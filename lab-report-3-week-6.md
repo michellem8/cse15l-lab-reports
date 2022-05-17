@@ -53,6 +53,6 @@ scp -r markdown-parser michelle:~/; ssh michelle cd markdown-parser; /software/C
 This was the ouput! It runs everything at once:
 
 ![Image](multcommands1.png)
-![Image](multcommands2.JPEG)
+![Image](multcommands.jpg)
 
  
