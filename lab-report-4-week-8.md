@@ -1,5 +1,11 @@
 # Clean Coding
 
+These are the two repositories used in this lab:
+
+[My Markdown Parser Repository](https://github.com/michellem8/markdown-parser)
+
+[Markdown Parser I Reviewd](https://github.com/HantianLin/markdown-parser/blob/main/MarkdownParse.java)
+
 ## Snippet 1 Test
 
 To test snippet 1 I implemented the following code:
