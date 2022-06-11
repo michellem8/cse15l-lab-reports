@@ -29,6 +29,7 @@ The differences in outputs of [Test File 490](https://github.com/nidhidhamnani/m
 ![Image](vimdiff490.png)
 *left -> my markdown parser; right-> lab 9 markdown parser*
 
+
 Based on the preview, the implementation provided in lab 9 has the correct output, meanwhile my output is incorrect. This is because the output should be empty brackets since there is nothing in the parenthesis in the preview, however the output for my implementation is:
 ```
 <foo
