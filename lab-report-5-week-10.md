@@ -21,7 +21,7 @@ The problem with the code in the implementation that has been provided is that t
 
 ![Image](code22.png)
 
-There should be an if statement within the block of code in the red box that accounts for characters such as backslashes telling the parser to recognize those characters as part of the links.
+To help possibly fix the issue there should be a few else if statements added within the block of code in the red box. The if statemnts would account for characters such as backslashes telling the parser to recognize those characters as part of the links and allowing tests to pass in the future.
 
 ## Test File 490 
 The differences in outputs of [Test File 490](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/490.md):
@@ -42,4 +42,4 @@ The bug is that whenever ```<``` and ```>``` are used in markdown the text insid
 
 ![Image](code490.png)
 
-In order to fix this, you could either add a method to my markdown parser that recogonizes these symbols and then returns that there is no text inside those symbols, or add an if statement inside the red box stating that any strings between those two symbols would be ignored. 
+Currently there is no code in my parser that recognizes ```<``` and ```>``` as symbols, therefore they are just seen as characteres and included in the output for the links. A possible fix for this would either be to add a method to my markdown parser that recogonizes these symbols and then returns that there is no text inside those symbols, and the method will then be used in the getlinks method. Or add if statements inside the red box stating that any strings between those two symbols would be ignored. 
