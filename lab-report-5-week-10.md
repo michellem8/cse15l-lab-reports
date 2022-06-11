@@ -16,11 +16,11 @@ Based on the preview of the test file for 22, both implementations are incorrect
 
 ![Image](testfile22.png)
 
-The problem with the code in the implementation that has been provided is that there is nothing that accounts for the backslashes in within the parentheses. Therefore the implementation does not find a link and goes on to look for the next one. 
+The problem with the code in the implementation that has been provided is that there is nothing that accounts for the backslashes within the parentheses. Therefore the implementation is not able to find the link due to the backslashes and starts to look for the next set of brackets and parentheses leaving that link empty. 
 
 ![Image](code22.png)
 
-There should be an if statement within the block of code in the red box that accounts for characters such as backslashes telling the parser to include those in the code. 
+There should be an if statement within the block of code in the red box that accounts for characters such as backslashes telling the parser to recognize those characters as part of the links.
 
 ## Test File 490 
 The differences in outputs of [Test File 490](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/490.md):
