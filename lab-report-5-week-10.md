@@ -10,6 +10,7 @@
 The differences in outputs of [Test File 22](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md):
 
 ![Image](vimdiff22.png)
+*left -> my markdown parser; right-> lab 9 markdown parser*
 
 Based on the preview of the test file for 22, both implementations are incorrect, and the correct output should be ```ti\*tle```. However my markdown parser has the output of ```/bar\* "ti\*tle```and the markdown parser provided in week 9 does not provide any links for the output. 
 
@@ -26,6 +27,7 @@ There should be an if statement within the block of code in the red box that acc
 The differences in outputs of [Test File 490](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/490.md):
 
 ![Image](vimdiff490.png)
+*left -> my markdown parser; right-> lab 9 markdown parser*
 
 Based on the preview, the implementation provided in lab 9 has the correct output, meanwhile my output is incorrect. This is because the output should be empty brackets since there is nothing in the parenthesis in the preview, however the output for my implementation is:
 ```
